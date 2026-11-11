@@ -1,0 +1,31 @@
+% !TeX program = xelatex
+% fonts=windows: exact required families on Windows.
+% fonts=files: local font files in fonts/.
+% fonts=fandol: portable draft only; not the required families.
+\documentclass[fonts=windows,printblank=true]{hznu-ai-thesis}
+\input{thesis-info}
+
+\begin{document}
+\makethesiscover
+\makethesisdeclarations
+\thesisfrontmatter
+\input{frontmatter/abstract-cn}
+\input{frontmatter/abstract-en}
+\tableofcontents
+% The following three parts are optional; remove the corresponding commands if unused.
+\listoffigures
+\listoftables
+\input{frontmatter/abbreviations}
+
+\thesismainmatter
+\include{chapters/01-introduction}
+\include{chapters/02-requirements}
+\include{chapters/03-citations}
+\include{chapters/04-figures-tables}
+\include{chapters/05-conclusion}
+\thesisbibliography{references}
+\thesisappendix
+\include{backmatter/appendix-a}
+\include{backmatter/achievements}
+\include{backmatter/acknowledgements}
+\end{document}
