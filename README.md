@@ -3,6 +3,7 @@
 湖州师范大学人工智能学院硕士学位论文 LaTeX 模板，适用于2026版论文排版规范。
 
 模板采用 XeLaTeX 和 BibTeX 构建，统一管理封面、声明、摘要、正文、图表、参考文献及附录的格式。论文内容按章节拆分，封面信息集中配置，便于写作和维护。
+当前文件目录下的overleaf-preview.zip可直接导入Overleaf中进行使用。
 
 [示例 PDF](example/thesis-example.pdf) · [排版规则](docs/FORMAT-CHECKLIST.md) · [开发指南](docs/DEVELOPMENT.md)
 
